@@ -9,12 +9,11 @@ class Program
 
   static void Main(string[] args)
   {
-    agregarCliente();
-    
-    // consultarCliente();
-    // modificarCliente();
-   // eliminarCliente();
-    //consultarEstudiantesFunciones();
+    agregarCliente(); 
+    consultarCliente();
+    modificarCliente();
+    eliminarCliente();
+   
   }
 
   public static void agregarCliente()
